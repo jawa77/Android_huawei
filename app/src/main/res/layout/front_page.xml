@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <Button
+        android:id="@+id/aboutme"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Me"
+        android:layout_weight="0.5"
+        android:textSize="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOUCH THE BUTTON TO ENTER \n *The List View* "
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_weight="3"/>
+    <Button
+        android:id="@+id/listview"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="List View"
+        android:layout_weight="1"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+
+        />
+
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOUCH THE BUTTON TO ENTER \n *The Recycler View* "
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_weight="3"/>
+    <Button
+        android:id="@+id/recycView"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Recycler View"
+        android:layout_weight="1"
+        android:textSize="30dp"
+
+        />
+
+
+</LinearLayout>
